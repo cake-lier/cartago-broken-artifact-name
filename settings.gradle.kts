@@ -1,2 +1,2 @@
-rootProject.name = "jacamo-template"
+rootProject.name = "cartago-broken-artifact-name"
 
