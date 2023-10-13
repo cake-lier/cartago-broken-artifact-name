@@ -1,18 +1,5 @@
-# JaCaMo Template
+# CArtAgO broken artifact name
 
-A template repository for creating new JaCaMo-based applications.
-
-## What?
-
-Exactly what the title says,
-this is a template repository to create hassle-free JaCaMo applications without starting from scratch.
-You can adjust the "config.jcm" file as you wish to add or remove all the configuration that you need,
-but please **don't** touch the "asl-path", "java-path" and "org-path" properties.
-
-## How to run it?
-
-You can use Gradle to run it,
-either using the Gradle wrapper in the repository or using the Gradle tool installed on your system.
-You don't even need to specify the task name; the default one will launch your application.
-But if you really need to know it, for example, for running it after pressing the "play" button on your preferred IDE,
-add the **run** task to your configurations and see the magic happen!
+This repository is to showcase a bug in the CArtAgO platform in its 3.0 version.
+In this new version, the "artifact_name" annotation can't be used on its own for "referencing" an artifact, but it needs also the "wsp" annotation.
+Sadly, this works for operation invocation, but not for signal and observable property change perception.
